@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp">
+<!-- Name Input -->
+<TextView
+android:id="@+id/textViewName"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:text="Name:"
+android:textSize="16sp" />
+<EditText
+android:id="@+id/editTextName"
+android:layout_width="373dp" android:layout_height="67dp"
+android:hint="Enter your name" />
+<!-- Date Input -->
+<TextView
+android:id="@+id/textViewDate"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Date:"
+android:textSize="16sp"
+android:layout_marginTop="16dp"/>
+<EditText
+android:id="@+id/editTextDate"
+android:layout_width="377dp" android:layout_height="64dp"
+android:hint="Enter the date (e.g., YYYY-MM-DD)" />
+<!-- Time Input -->
+<TextView
+android:id="@+id/textViewTime"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:text="Time:"
+android:textSize="16sp"
+android:layout_marginTop="16dp"/>
+<EditText
+android:id="@+id/editTextTime"
+android:layout_width="377dp" android:layout_height="61dp"
+android:hint="Enter the time (e.g., HH:MM)" />
+<Spinner
+android:id="@+id/spinnerHR"
+android:layout_width="386dp"
+android:layout_height="73dp"
+android:text="Choose HR" />
+<!-- Meeting Type Selection -->
+<TextView
+android:id="@+id/textViewMeetingType"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:text="Select
+Meeting Type:" android:textSize="16sp"
+android:layout_marginTop="16dp"/>
+<RadioGroup
+android:id="@+id/radioGroupMeetingType"
+android:layout_width="373dp" android:layout_height="93dp"
+android:orientation="vertical">
+<RadioButton
+android:id="@+id/radioButtonOnline"
+android:layout_width="144dp"
+android:layout_height="49dp"
+android:text="Online" /> <RadioButton
+android:id="@+id/radioButtonOffline"
+android:layout_width="146dp"
+android:layout_height="48dp"
+android:text="Offline" />
+</RadioGroup>
+<!-- Submit Button -->
+<Button
+android:id="@+id/buttonSubmitMeeting"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Submit Meeting"
+android:layout_marginTop="16dp"/>
+<!-- View Counseling Button -->
+<Button
+android:id="@+id/buttonViewCounseling"
+android:layout_width="match_parent"
+android:layout_height="wrap_content" android:text="View
+Counseling"
+android:layout_marginTop="16dp"/>
+</LinearLayout> 

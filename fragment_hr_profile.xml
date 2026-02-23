@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent" android:orientation="vertical"
+android:padding="16dp">
+<ImageView
+android:id="@+id/profileImage"
+android:layout_width="100dp"
+android:layout_height="100dp"
+android:contentDescription="Profile Image"
+android:src="@drawable/ic_profile1"
+android:layout_gravity="center" />
+<Button
+android:id="@+id/buttonUploadPhoto"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:text="Upload
+Photo" android:layout_gravity="center"
+android:layout_marginTop="16dp" />
+<EditText
+android:id="@+id/editTextName"
+android:layout_width="match_parent"
+android:layout_height="50dp" android:hint="Name"
+android:layout_marginTop="16dp" />
+<EditText
+android:id="@+id/editTextHRId"
+android:layout_width="match_parent"
+android:layout_height="50dp" android:hint="Employee
+ID"
+android:layout_marginTop="16dp" />
+<EditText
+android:id="@+id/editTextBranch"
+android:layout_width="match_parent"
+android:layout_height="50dp"
+android:hint="Branch"
+android:layout_marginTop="16dp" />
+<EditText
+android:id="@+id/editTextPost"
+android:layout_width="match_parent"
+android:layout_height="50dp" android:hint="Post
+in Company"
+android:layout_marginTop="16dp" />
+<EditText
+android:id="@+id/editTextEmail"
+android:layout_width="match_parent"
+android:layout_height="50dp" android:hint="Email"
+android:layout_marginTop="16dp" /> <EditText
+android:id="@+id/editTextPhone"
+android:layout_width="match_parent"
+android:layout_height="50dp" android:hint="Phone
+Number"
+android:layout_marginTop="16dp" />
+<EditText
+android:id="@+id/editTextAge"
+android:layout_width="match_parent"
+android:layout_height="50dp" android:hint="Age"
+android:layout_marginTop="16dp" />
+<EditText
+android:id="@+id/editTextAddress"
+android:layout_width="match_parent"
+android:layout_height="50dp"
+android:hint="Address"
+android:layout_marginTop="16dp" />
+<Button
+android:id="@+id/buttonSaveProfile"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:text="Save
+Profile" android:layout_gravity="center"
+android:layout_marginTop="16dp" />
+<Button
+android:id="@+id/buttonViewProfile"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:text="View
+Profile" android:layout_gravity="center"
+android:layout_marginTop="16dp" />
+</LinearLayout>

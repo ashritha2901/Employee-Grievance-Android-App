@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent" android:orientation="vertical"
+android:padding="16dp">
+<EditText
+android:id="@+id/editTextComplaintID"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Complaint ID" />
+<EditText
+android:id="@+id/editTextemployeename"
+android:layout_width="match_parent"
+android:layout_height="wrap_content" android:hint="Complaint
+ID" />
+<EditText
+android:id="@+id/editTextComplaintTitle"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Complaint Title" />
+<EditText
+android:id="@+id/editTextComplaintDescription"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Complaint Description"
+android:minLines="4" android:gravity="top"
+android:inputType="textMultiLine" />
+<Spinner
+android:id="@+id/spinnerSubmitTo"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:entries="@array/submit_to_options" />
+<CheckBox
+android:id="@+id/checkBoxType1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Workplace Harassment" />
+<CheckBox
+android:id="@+id/checkBoxType2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Salary Issues" />
+<CheckBox
+android:id="@+id/checkBoxType3"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Discrimination" />
+<CheckBox
+android:id="@+id/checkBoxType4"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Other" />
+<Button
+android:id="@+id/buttonAddEvidence"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Add Evidence" />
+<Button
+android:id="@+id/buttonSubmitComplaint"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Submit Complaint" />
+<Button
+android:id="@+id/buttonViewComplaint"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="View Complaint" />
+<Button
+android:id="@+id/buttonHome"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:text="Home"
+/>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content" android:orientation="vertical"
+android:padding="8dp">
+<TextView
+android:id="@+id/complaintTitle"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content" android:text="Complaint
+Title"
+android:textStyle="bold" />
+<TextView
+android:id="@+id/complaintId"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="ID: " />
+<TextView
+android:id="@+id/complaintStatusTextView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Status: " />
+<TextView
+android:id="@+id/complaintDescriptionTextView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Description: " />
+<TextView
+android:id="@+id/complaintSubmitToTextView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Submitted To: " />
+<TextView
+android:id="@+id/complaintFromTextView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="From: " /> </LinearLayout>

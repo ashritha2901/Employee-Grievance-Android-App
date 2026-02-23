@@ -1,27 +1,23 @@
 # Employee Grievance Management System (Android)
 
-Android application developed using Java and Firebase that allows employees to raise complaints, HR to manage grievances, and advocates to handle assigned cases.
+An academic Android application developed using Java and Firebase that allows employees to raise workplace grievances, HR to manage complaints, and advocates to handle assigned cases.
 
 ## Features
 - Employee / HR / Advocate login
 - Profile management
 - Complaint submission with evidence
-- HR status updates
-- Advocate case assignment
+- Complaint status tracking
 - Counseling appointment booking
-- Firebase Realtime Database integration
 
 ## Tech Stack
-- Android Studio (Java)
+- Android (Java)
 - Firebase Realtime Database
 - Firebase Storage
+- XML UI
 
-## Status
-Prototype / Academic Project.
-Some features are incomplete.
+## Project Status
+Prototype project developed for academic purposes.
+Some features are partially implemented.
 
-## Future Improvements
-- Node.js backend
-- Improved UI
-- Authentication security
-- Push notifications
+## Note
+Source code reconstructed from project report due to system issues.

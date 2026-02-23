@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+android:id="@+id/navigation_profile"
+android:icon="@drawable/ic_profile1"
+android:title="Profile" />
+<item
+android:id="@+id/navigation_file_complaint"
+android:icon="@drawable/ic_view_status1"
+android:title="File Complaint" />
+<item
+android:id="@+id/navigation_view_status"
+android:icon="@drawable/ic_view_status1"
+android:title="View Status" />
+<item
+android:id="@+id/navigation_counseling"
+android:icon="@drawable/ic_counseling1"
+android:title="Counseling" />
+<item
+android:id="@+id/navigation_logout"
+android:icon="@drawable/ic_logout1"
+android:title="Logout" />
+</menu>
